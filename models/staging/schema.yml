@@ -3,7 +3,8 @@ version: 2
 sources:
   - name: staging
     database: de-zoomcamp-2024-417307
-    schema: ny_taxi
+    schema: trips_data_all
 
     tables:
-      - name: yellow_cab_data
+      - name: green_trips
+      - name: yellow_trips
