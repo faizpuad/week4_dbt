@@ -1,4 +1,4 @@
 {{ config(materialized='view') }}
 
-select * from {{ source('staging', 'rides_yellow') }}
+select * from {{ source('staging', 'yellow_cab_data') }}
 limit 100
